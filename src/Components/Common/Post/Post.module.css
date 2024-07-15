@@ -1,0 +1,64 @@
+.PostContainer{
+    height: 16rem;
+    width: 44rem;
+    background-color: #35373B;
+    border: 2px solid #35373B;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.UserContainer{
+    display: flex;
+    position: relative;
+    color: #C5C7CA;
+
+    span{
+        position: absolute;
+        right: 1.25rem;
+        bottom: 0;
+        font-size: 1.5rem;
+    }
+}
+
+.UserDetails{
+    margin:0 1rem;
+}
+
+.DatePosted{
+    font-size:0.75rem;
+}
+
+.Post{
+    display: flex;
+    height: 7rem;
+    width: 40rem;
+    background-color: #191920;
+    padding: 1rem;
+    color: #7F8084;
+    gap: 1rem;
+    margin:1rem 0;
+    border-radius: 0.5rem;
+
+    div{
+        height: 50px;
+        width: 50px;
+        background:#27292d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        padding: 1rem;
+    }
+}
+
+.Comments{
+    display: flex;
+    gap: 0.5rem;
+
+    p{
+        font-size: 0.875rem;
+        color: #7F8084;
+    }
+}

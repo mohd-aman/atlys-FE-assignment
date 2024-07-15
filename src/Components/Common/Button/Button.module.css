@@ -1,0 +1,18 @@
+.Small{
+    width: 5rem;
+}
+
+.Large {
+    width: 26rem;
+    
+}
+
+.Button{
+    height: 2.5rem;
+    margin: 1rem;
+    background-color: #4A96FF;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}

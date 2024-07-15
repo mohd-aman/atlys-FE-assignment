@@ -1,0 +1,43 @@
+.CreatePostContainer{
+    height: 14rem;
+    width: 44rem;
+    background-color: #35373B;
+    border: 2px solid #35373B;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.CreatePost{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    width: 41.5rem;
+    border-radius: 0.5rem;
+    background-color: #191920;
+    color:#7F8084;
+    margin: 1rem 0;
+
+    div{
+        height: 50px;
+        width: 50px;
+        background:#27292d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        padding: 1rem;
+        margin: 1rem;
+    }
+}
+
+.Typo{
+    font-size: 1.125rem;
+    color: #C5C7CA;
+}
+
+.Button{
+    margin: 0;
+    float: right;
+}
